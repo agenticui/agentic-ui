@@ -10,7 +10,8 @@
     "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "dev": "pnpm storybook"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^4",

@@ -1,0 +1,91 @@
+import { Meta } from '@storybook/addon-docs'
+
+<Meta title="Introduction" />
+
+# Agentic UI
+
+Welcome to **Agentic UI** - a comprehensive React component library for building AI applications with stunning interfaces.
+
+## 🚀 Features
+
+Agentic UI provides everything you need to build modern AI chat interfaces:
+
+### Conversation Components
+- **ChatMessage**: Role-based message bubbles with timestamps and avatars
+- **MessageList**: Virtualized conversation history with auto-scroll
+- **ChatInput**: Multi-line input with attachments and voice support
+
+### Agent Management
+- **AgentCard**: Profile cards with status indicators and capabilities
+- **AgentSelector**: Dropdown for switching between agents
+- **AgentGrid**: Responsive grid layout for multiple agents
+
+### Streaming & Animation
+- **StreamingText**: Character-by-character text animation
+- **Typewriter**: Multi-word cycling animation
+- **TypingIndicator**: Animated dots for thinking states
+- **Loading States**: Skeletons, spinners, and pulse loaders
+
+## 🎨 Design System
+
+Built with modern design principles:
+- **Tailwind CSS** for utility-first styling
+- **shadcn/ui** compatible design tokens
+- **Class Variance Authority** for variant management
+- **Responsive design** that works on all devices
+- **Dark mode** support out of the box
+
+## 🛠️ Usage
+
+```tsx
+import { 
+  ChatMessage, 
+  MessageList, 
+  ChatInput,
+  AgentCard,
+  StreamingText 
+} from 'agentic-ui'
+
+function ChatInterface() {
+  return (
+    <div className="flex flex-col h-screen">
+      <MessageList messages={messages} />
+      <ChatInput onSendMessage={handleSend} />
+    </div>
+  )
+}
+```
+
+## 📚 Examples
+
+Check out the **Examples** section for:
+- Complete chat interfaces
+- Agent management systems
+- Real-time streaming demos
+- Component showcases
+
+## 🔧 Customization
+
+All components are built with customization in mind:
+- **Variant props** for different styles
+- **CSS custom properties** for theming
+- **Tailwind classes** for easy styling
+- **TypeScript** for type safety
+
+## 🚀 Getting Started
+
+1. Install the package:
+   ```bash
+   npm install agentic-ui
+   ```
+
+2. Import the CSS:
+   ```tsx
+   import 'agentic-ui/dist/index.css'
+   ```
+
+3. Start building amazing AI interfaces!
+
+---
+
+Explore the components in the sidebar to see what's possible with Agentic UI.
